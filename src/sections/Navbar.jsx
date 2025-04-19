@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { navLinks } from '../constants';
+import { useEffect } from 'react';
 
 const NavItems = () => {
   return (
@@ -21,6 +22,28 @@ function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const [BDTime, setDBTime] = useState(
+    new Date().toLocaleTimeString('en-EN', {
+      timeZone: 'Asia/Dhaka',
+      hour12: true,
+      // dateStyle: 'medium',
+      // timeStyle: 'short',
+    })
+  );
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDBTime(
+        new Date().toLocaleTimeString('en-EN', {
+          timeZone: 'Asia/Dhaka',
+          hour12: true,
+          // dateStyle: 'medium',
+          // timeStyle: 'short',
+        })
+      );
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [BDTime]);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
@@ -30,7 +53,7 @@ function Navbar() {
             href="/"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Kiam
+            Kiam / {BDTime}
           </a>
           <button
             className="text-neutral-400 hover:text-white-500 focus:outline-none sm:hidden flex "

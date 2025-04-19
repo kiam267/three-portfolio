@@ -15,6 +15,8 @@ import Cube from '../components/Cube';
 import Rings from '../components/Ring';
 import HeroCamera from '../components/HeroCamera';
 import Button from '../components/Button';
+import { Icons } from '../lib/icons';
+import { cn } from '../lib/lib';
 
 function Hero() {
   const isSmall = useMediaQuery({ maxWidth: 440 });
@@ -26,14 +28,16 @@ function Hero() {
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
   return (
-    <section className="min-h-screen w-full flex flex-col relative" id='home'>
+    <section
+      className="min-h-screen w-full flex flex-col relative"
+      id="home"
+    >
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="text-white sm:text-3xl text-2xl font-medium text-center font-generalsans">
-          Hi, I am Kiam{' '}
-          <span className="waving-hand">👋</span>
+          I am Kiam <span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">
-          Building Brands by Me
+          I build things for the web
         </p>
       </div>
       <div className="w-full absolute inset-0">
@@ -70,13 +74,16 @@ function Hero() {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+      <div className="absolute bottom-9 lg:bottom-7 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit ">
-          <Button
-            name={"Let's work together"}
-            isBeam
-            containerClass="sm:w-fit w-full sm:min-w-96"
-          />
+          <button
+            className={cn(
+              'flex gap-2 items-center justify-center cursor-pointer p-3 rounded-md bg-black-300  transition-all active:scale-95 text-white mx-auto font-bold',
+            )}
+          >
+            <Icons.ArrowDown className="w-5 h-5 animate-bounce fill-white" />
+            <span>Tap to Continue</span>
+          </button>
         </a>
       </div>
     </section>

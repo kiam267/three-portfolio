@@ -32,9 +32,10 @@ function About() {
             <div>
               <p className="grid-headtext">Hi, I'm kiam</p>
               <p className="grid-subtext">
-                With 12 years of expreience, I have honed my
-                skills in frontend and backend developement,
-                with a focus on animated 3D websites.{' '}
+                With over 3 years of experience, I have
+                honed my skills in frontend and backend
+                development, focusing on seamless user
+                experience and clean coding.
               </p>
             </div>
           </div>
@@ -49,8 +50,10 @@ function About() {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I spacialize in Javascript/TypeScript with a
-                focus on React and NextJs ecosystems
+                I specialize in MERN stack development, and
+                I also have experience in NestJS, basic PHP,
+                and Python. Additionally, I have a good
+                knowledge of VPS maintenance.
               </p>
             </div>
           </div>
@@ -99,7 +102,7 @@ function About() {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/grid3.png"
+              src="/assets/test.png"
               alt="grid-3"
               className="w-full sm:h-[266px] h-fit object-contain"
             />
@@ -109,8 +112,10 @@ function About() {
               </p>
               <p className="grid-subtext">
                 I love solving problems and building things
-                through code. Coding isn't jsut my
-                profession - it is my passion.{' '}
+                through code. Coding isn't just my
+                profession; it's my passion. I realize that
+                if given a good opportunity, I can help grow
+                your business. That’s my promise.
               </p>
             </div>
           </div>

@@ -24,35 +24,33 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Ravi',
+    position: 'Web Developer at Tech Solutions',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Excellent work! Delivered on time and exceeded my expectations. Very professional and responsive. Highly recommend. I appreciate their dedication to quality and efficiency. Highly recommend for any web development needs',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Zalal Ahmed',
+    position: 'CEO of Any Graphics Today',
     img: 'assets/review2.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Outstanding experience! His attention to detail, creative approach, and problem-solving skills were evident throughout. he was highly communicative, ensuring that every aspect of the project aligned with my vision.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+    name: 'Tahiri Lahcen',
+    position: 'Full Stack Engineer at LS2I Company',
+    img: 'assets/review3.jpg',
+    review: `He's good to work with. I gave him a design file and he delivered good results. Gave some feedback on the deliverable which he incorporated. Will work again with him in future.`,
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
+    name: 'Masnad',
+    position: 'Service Manager',
     img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+    review: `Hired him two times in a row to do quick fixes, on project, has good css skills. His skills in both frontend backend dev are top-notch.`,
   },
 ];
 
@@ -290,32 +288,32 @@ export const calculateSizes = (
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
+    name: 'Upwork',
+    pos: 'FullStack Developer',
+    duration: '2025 - Present',
     title:
-      'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-    icon: '/assets/framer.svg',
+      'To focus on my study, I have decided to work on Upwork. I am engaged in various projects, including web development, mobile app development, and software engineering. I have gained valuable experience with different technologies and frameworks.',
+    icon: '/assets/upwork.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
+    name: 'Any Graphics Today',
+    pos: 'FullStack Developer',
+    duration: '2024 - 2025',
     title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
+      'Any Graphices Today is US base company that provides a wide range of services, including web development, graphic design, and digital marketing. I worked as a full-stack developer, focusing on building responsive and user-friendly websites.',
+    icon: '/assets/anygraphicstoday.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
+    name: 'Khalid IT',
+    pos: 'Intern',
+    duration: '8 months',
     title:
-      'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-    icon: '/assets/notion.svg',
+      'During my internship, I used GitHub to manage and share code, collaborate with developers, track changes, and contribute to projects. I learned about the functionality of the code and managed previous model projects.',
+    icon: '/assets/khalid-it.svg',
     animation: 'salute',
   },
 ];
