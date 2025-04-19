@@ -105,7 +105,7 @@ function Contact() {
                 onChange={handelChange}
                 required
                 rows={5}
-                className="field-input"
+                className="field-input max-h-96"
                 placeholder="Hi, I wanna give you a job..."
               />
             </label>
